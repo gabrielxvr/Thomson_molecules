@@ -36,3 +36,4 @@ def hamiltonian(d_array, alpha, beta, gamma):
     H_dist[range(n), range(n)] = alpha
     
     return H_dist
+        
