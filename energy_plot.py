@@ -16,7 +16,7 @@ def group_duplicates(input_list):
     return list(count_dict.values())
 
 
-def plot_energy_levels(evals_var, dec, energ_unit='eV'):
+def plot_energy_levels(evals_var, dec=6, energ_unit='eV'):
     evals_round = np.around(evals_var, decimals=dec)
     evals_dp = group_duplicates(evals_round)
     print(evals_dp)
